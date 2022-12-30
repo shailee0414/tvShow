@@ -3,13 +3,14 @@ import  {Home }from "../src/components/Home"
 import { BrowserRouter, Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Details from "./components/Details";
+
 const App = () => {
   return (
     <div>
     <BrowserRouter>
       <Routes >
-        <Route path="/"   element={<Home />}/>
-        <Route path="/details"   element={<Details />}/>
+        <Route path="/"   element={<Home/>}/>
+        <Route path="/details"   element={<Details/>}/>
       </Routes>
     </BrowserRouter>
   </div>

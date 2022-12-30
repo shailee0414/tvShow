@@ -45,7 +45,7 @@ export const Home = () => {
               padding: "0.3em",
               borderRadius: "6px",
             }}
-            onClick={() => { navigate("/details",{state:{item}})}}
+            onClick={() => { navigate("/details",{state:{item,index}})}}
           >
             Click Me
           </button>

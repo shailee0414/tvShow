@@ -15,7 +15,7 @@ const Header = () => {
         }}
       >
         <div className="ui  item " style={{ alignSelf: "center" }}>
-          <a className="active item" href>ALL SHOWS</a>
+          <a className="active item" href="/">ALL SHOWS</a>
         </div>
       </div>
     </div>
