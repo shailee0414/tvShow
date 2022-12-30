@@ -6,7 +6,8 @@ const Details = () => {
   const { state } = useLocation();
   useEffect(() => {
     setData(state?.item);
-  }, []);
+  }, [data]);
+  console.log(data)
   return (
     <div
       className=""
