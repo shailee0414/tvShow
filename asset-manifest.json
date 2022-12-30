@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/tvshow/static/js/main.2773f66e.js",
+    "index.html": "/tvshow/index.html",
+    "main.2773f66e.js.map": "/tvshow/static/js/main.2773f66e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2773f66e.js"
+  ]
+}
